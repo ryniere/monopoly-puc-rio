@@ -75,6 +75,21 @@ src/java/br/rio/puc/inf/monopoly/
 - **Controller** — concentra as regras do jogo e notifica as views quando o estado muda
 - **Facade** — simplifica a inicialização do jogo para o cliente (`Main`)
 
+## 📱 Protótipo Mobile — "Quarteirão" (2026)
+
+A modernização do jogo está em desenvolvimento na pasta [`app/`](app/): um jogo mobile em **Flutter** com tema de bairros do Rio de Janeiro, seguindo o [plano de produto](docs/superpowers/specs/2026-07-13-plano-jogo-mobile-engajante.md). O que já existe:
+
+- **Engine puro** (`app/lib/game/`) — `apply(state, action)` sem efeitos colaterais, com Modo Rápido (12 rodadas, vence o maior patrimônio, sem eliminação) e Clássico, leilões, trocas com dinheiro, penhora, duplas, imposto proporcional e cartas de Sorte/Azar — **105 testes**, incluindo fuzzing de partidas completas
+- **Protótipo jogável** (`app/lib/ui/`) — tabuleiro em CustomPainter, passa-e-joga e partida contra a IA **Carla, a Negociadora**
+
+```bash
+cd app
+flutter test          # roda a suíte do engine
+flutter run -d chrome # roda o protótipo no navegador
+```
+
+> "Quarteirão" é nome de trabalho — a definição de marca (busca INPI etc.) é o workstream da semana 0 do plano.
+
 ## 📐 Documentação de Design
 
 A modelagem do sistema está disponível na pasta [`0620233-0620491/`](0620233-0620491/):
