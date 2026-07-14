@@ -1,5 +1,7 @@
 # Monopoly Mobile Game — Design Spec
 
+> ⚠️ **SUPERSEDED (2026-07-13):** este documento foi substituído por [`2026-07-13-plano-jogo-mobile-engajante.md`](2026-07-13-plano-jogo-mobile-engajante.md), que corrige as lacunas de engajamento, arquitetura e negócio identificadas em análise multi-agente. Mantido apenas como registro histórico.
+
 ## Overview
 
 A modern mobile Monopoly-style board game built with Flutter, targeting iOS and Android. Brazilian cities theme with an original brand name. Online multiplayer via Supabase Realtime and single-player vs rule-based AI.
