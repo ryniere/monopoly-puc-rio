@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Compiled classes
+0620233-0620491/Monopoly/target/
+
+# Astah lock files
+*.lock
+
+# Ferramentas locais (Claude Code / Superpowers)
+.claude/
+.superpowers/
