@@ -1,6 +1,6 @@
 # Monopoly — PUC-Rio
 
-Implementação do clássico jogo de tabuleiro **Monopoly (Banco Imobiliário)** em **Java Swing**, desenvolvida em 2012 como trabalho da disciplina de Programação Orientada a Objetos do curso de Informática da **PUC-Rio** (Pontifícia Universidade Católica do Rio de Janeiro).
+Implementação do clássico jogo de tabuleiro **Monopoly (Banco Imobiliário)** em **Java Swing**, desenvolvida em 2012 como trabalho da disciplina **INF1013 — Modelagem de Software** do Departamento de Informática da **PUC-Rio** (Pontifícia Universidade Católica do Rio de Janeiro).
 
 ![Tabuleiro](0620233-0620491/Monopoly/images/tabuleiro.png)
 
@@ -97,4 +97,4 @@ Desenvolvido em 2012 por:
 
 ---
 
-*Projeto acadêmico — PUC-Rio, Departamento de Informática, 2012.*
+*Projeto acadêmico — INF1013 (Modelagem de Software), Departamento de Informática, PUC-Rio, 2012.*
